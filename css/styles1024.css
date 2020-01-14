@@ -53,14 +53,14 @@ h1,h2 {
 	background: linear-gradient(to left, rgba(128,128,128,0.1), rgba(0,0,0,0.6));
 }
 
-/*.main>*:first-child {
+.main>*:first-child {
 	align-self: stretch;
 }
 
 .main .selected {
 	display: block;
 	margin: 0px 30px;
-}*/
+}
 
 .title {
 	text-align: center;
