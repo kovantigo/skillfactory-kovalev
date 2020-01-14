@@ -1,0 +1,111 @@
+@font-face {
+	src: url('../fonts/Merriweather-Regular.ttf');
+	font-family: 'Merriweather Regular';
+}
+
+body {
+	margin: 10px;
+	border: 2px solid rgb(255,255,255);
+	padding: 0px;
+	font-family: sans-serif;
+}
+
+h1,h2 {
+	font-family: 'Merriweather Regular';
+}
+
+.header {
+	display: flex;
+	justify-content: center;
+	border: 1px 1px 0px solid rgb(255,255,255);
+	border-bottom: 1px solid rgb(0,0,0);
+	padding: 15px 20px;
+	background: linear-gradient(to left, rgba(128,128,128,0.1), rgba(0,0,0,0.6));
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Merriweather Regular';
+}
+
+.link {
+	margin: 0px 10px;
+	border: none;
+	padding: 10px 15px;
+	color: rgb(0,0,0);
+	text-decoration: none;
+}
+
+.link:hover {
+	border-color: rgb(255,255,255);
+	background-color: rgba(220,220,220,0.5);
+	border-radius: 0px 10px;
+	transition: border-color 0.1s, border-radius 0.1s;
+
+}
+
+.main {
+	display: flex;
+	/*align-items: flex-start;*/
+	border: 0px 1px solid rgb(255,255,255); 
+	border: 1px 0px solid rgb(0,0,0);
+	padding: 0px;
+	background: linear-gradient(to left, rgba(128,128,128,0.1), rgba(0,0,0,0.6));
+}
+
+/*.main>*:first-child {
+	align-self: stretch;
+}
+
+.main .selected {
+	display: block;
+	margin: 0px 30px;
+}*/
+
+.title {
+	text-align: center;
+}
+
+.img {
+	margin: 20px 10px;
+	border: 1px solid rgb(0,0,0);
+	border-radius: 200px 200px;
+}
+
+.subtitle {
+	margin-top: 15px;
+	border-left: 5px solid rgba(0,0,0,0.5);
+	padding-left: 15px;
+}
+
+.text {
+	padding-left: 20px;
+	text-align: justify;
+}
+
+.footer {
+	border-top: 1px solid rgb(0,0,0);
+	background: linear-gradient(to left, rgba(128,128,128,0.1), rgba(0,0,0,0.6));
+}
+
+.footer .subtitle {
+	margin-left: 10px;
+	padding-left: 20px;
+	color: rgb(0,0,0);
+}
+
+.footer .text {
+	margin-left: 10px;
+	padding-left: 20px;
+	color: rgb(0,0,0);
+}
+
+.flink {
+	padding-left: 15px;
+	text-decoration: none;
+	color: rgb(0,0,0);
+}
+
+.fimg {
+	padding-left: 30px;
+}
